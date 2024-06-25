@@ -29,7 +29,7 @@ const GameSection = () => {
                     </div>
                 </div>
                 <div  className='flex gap-20 items-center justify-center'>
-                        <button>Github</button>
+                        <button onClick={() => {window.open('https://github.com/MurtazaKhannn/Simon-Says-game-using-HTML-CSS-JS-')}}>Github</button>
                         <button onClick={() => {window.open('https://murtazakhannn.github.io/Simon-Says-game-using-HTML-CSS-JS-/')}}>Play</button>
                 </div>
                 </div>
@@ -46,13 +46,13 @@ const GameSection = () => {
                     </div>
                     </div>
                     <div  className='flex gap-20 justify-center items-center'>
-                        <button>Github</button>
-                        <button>Play</button>
+                        <button onClick={() => {window.open('https://github.com/MurtazaKhannn/TicTacToe')}}>Github</button>
+                        <button onClick={() => {window.open('https://tictactoemk.netlify.app/')}}>Play</button>
                     </div>
                 </div>
                 </div>
 
-                <div className='flex items-center justify-between w-full'>
+                {/* <div className='flex items-center justify-between w-full'>
                 <div className='h-[60vh] w-[40vw] relative'>
                     <motion.div  whileHover={{opacity:0 ,scale:1.01}} initial={{opacity:1}} className='flex items-center justify-center text-4xl font-bold font-danfo absolute w-[40vw] h-[60vh] bg-black z-40 h-full z-index-30'>TIC TAC TOE</motion.div>
                     <div className='flex items-center justify-center flex-col w-[40vw] p-6 h-[60vh] bg-black rounded-[5vh] gap-4'>
@@ -68,9 +68,9 @@ const GameSection = () => {
                         <button>Github</button>
                         <button>Play</button>
                     </div>
-                </div>
+                </div> */}
 
-                <div className='h-[60vh] w-[40vw] relative'>
+                {/* <div className='h-[60vh] w-[40vw] relative'>
                     <motion.div  whileHover={{opacity:0 ,scale:1.01}} initial={{opacity:1}} className='flex items-center justify-center text-4xl font-bold font-danfo absolute w-[40vw] h-[60vh] bg-black z-40 h-full z-index-30'>TIC TAC TOE</motion.div>
                     <div className='flex items-center justify-center flex-col w-[40vw] p-6 h-[60vh] bg-black rounded-[5vh] gap-4'>
                     <h1 className='font-bebas text-4xl flex items-center'>TIC TAC TOE</h1>
@@ -86,7 +86,7 @@ const GameSection = () => {
                         <button>Play</button>
                     </div>
                 </div>
-                </div>
+                </div> */}
 
                 
             </div>
