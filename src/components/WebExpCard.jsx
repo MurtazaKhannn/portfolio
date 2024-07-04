@@ -10,7 +10,7 @@ const WebExpCard = () => {
 
     
   return (
-    <div data-scroll data-scroll-section data-scroll-speed=".9" className='w-full py-10 z-40 relative rounded-t-[1vw] bg-[#004d43] flex overflow-hidden'>
+    <div data-scroll data-scroll-section data-scroll-speed="2.3" className='w-full py-10 z-40 relative rounded-t-[1vw] bg-[#004d43] flex overflow-hidden'>
         <motion.div 
             className='flex'
             initial={{ x: 0 }} 

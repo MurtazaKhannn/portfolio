@@ -6,6 +6,7 @@ import { SiCss3, SiExpress, SiMongodb } from 'react-icons/si';
 import { Link } from 'react-scroll';
 import { motion, useAnimation } from "framer-motion";
 import { gsap } from 'gsap';
+import mmk from "../assets/mmk.jpg"
 import { useGSAP } from '@gsap/react';
 import LBCurve from "../assets/LBCurve.png"
 import YCurve from "../assets/YCurve.png"
@@ -213,7 +214,7 @@ const Hero = ({reference}) => {
                         <h1 className='p-2'>ABOUT ME</h1>
                         <div  className='relative overflow-hidden border-2 border-white bg-white w-[15vw] h-[32vh] rounded-full'>
                             <motion.div className='absolute w-full h-full bg-white flex z-10 items-center justify-center text-black text-lg font-mono font-bold flex-col '><p className='font-danfo text-4xl'>Hover</p></motion.div>
-                            <motion.div whileHover={{opacity:1 ,scale:1.01}} initial={{opacity:0}} className='absolute z-20 w-full h-full'><img className=' w-full h-full object-cover' src="https://images.unsplash.com/photo-1582015752624-e8b1c75e3711?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZWwlMjBtYWxlfGVufDB8fDB8fHww" alt="" /></motion.div>
+                            <motion.div whileHover={{opacity:1 ,scale:1.01}} initial={{opacity:0}} className='absolute z-20 w-full h-full'><img className=' w-full h-full object-cover' src={mmk} alt="" /></motion.div>
                         </div>
                         <div className='font-bebas p-5'>"Web wizard Murtaza Khan: turning caffeine into code since forever!"</div>
                     </div>
