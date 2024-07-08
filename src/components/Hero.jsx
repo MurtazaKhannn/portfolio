@@ -140,8 +140,8 @@ const Hero = ({reference}) => {
                             </div>
                         </div>
                     </div>
-                    <motion.div drag dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }} whileDrag={{scale:1.2}} dragElastic={1} className='flex text-4xl items-center justify-center gap-10 rounded-full mt-5 bg-gradient-to-sr from-pink-700 to-orange-500'>
-                        <div className='flex flex-col items-center justify-center'>
+                    <motion.div drag dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }} whileDrag={{scale:1.2}} dragElastic={1} className='flex text-4xl xs:text-3xl xs:gap-5 items-center justify-center gap-10 rounded-full mt-5 bg-gradient-to-sr from-pink-700 to-orange-500'>
+                        <div className='xs:hidden flex flex-col items-center justify-center'>
                             <h1 className='text-white ml-3 text-lg font-bold'>Tech-Stack : </h1>
                             <p className='text-xs'>(Draggable)</p>
                         </div>
