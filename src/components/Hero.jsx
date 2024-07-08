@@ -192,12 +192,12 @@ const Hero = ({reference}) => {
                 </div> */}
                 <div className='xs:mt-[-10rem] flex items-center justify-center text-3xl font-danfo xs:text-sm'>
                     
-                    <div className='flex flex-col items-center justify-center w-1/3 h-[70vh] gap-10 p-5 xs:text-sm'>
+                    <div className='flex flex-col items-center justify-center w-1/3 h-[70vh] gap-10 p-5 xs:text-2xl'>
                         <div className='flex flex-col xs:hidden font-bold items-center justify-center pl-8 font-poiret w-[30vw] h-[15vh] xs:h-[10vh] xs:text-sm'>
                             <motion.div  >"My network is stronger than my coffee addiction!"</motion.div>
                             <motion.div  whileHover={{opacity:1}} initial={{opacity:0}} className='text-[#f8e112]' >And I Have No Coffee Addiction!!</motion.div>
                         </div>
-                        <div className=''>
+                        <div className='xs:w-[50vw] xs:[50vh]'>
                         <motion.div onClick={() => {window.open('https://github.com/MurtazaKhannn')}} className='cursor-pointer' whileHover={{scale:1.3 , originX:0 , color:'#f8e112'}} transition={{type:'spring' , stiffness:300}}>
                             ▪️ Github
                         </motion.div>
@@ -216,15 +216,19 @@ const Hero = ({reference}) => {
                         </div>
                         
                     </div>
-                    <div className='flex center items-center flex-col gap-10 justify-center w-1/3 h-[70vh]'>
-                        <h1 className='p-2'>ABOUT ME</h1>
-                        <div  className='relative overflow-hidden border-2 border-white bg-white w-[15vw] h-[32vh] xs:h-[10vh] xs:w-[21vw] rounded-full'>
+                    <div className='flex center items-center flex-col gap-10 xs:gap-5 justify-center w-1/3 h-[70vh]'>
+                        <h1 className='p-2 xs:text-2xl'>ABOUT ME</h1>
+                        <div  className='xs:hidden relative overflow-hidden border-2 border-white bg-white w-[15vw] h-[32vh] xs:h-[10vh] xs:w-[21vw] rounded-full'>
                             <motion.div className='absolute w-full h-full bg-white flex z-10 items-center justify-center text-black text-lg font-mono font-bold flex-col '><p className='font-danfo text-4xl xs:text-lg'>Hover</p></motion.div>
                             <motion.div whileHover={{opacity:1 ,scale:1.01}} initial={{opacity:0}} className='absolute z-20 w-full h-full'><img className=' w-full h-full object-cover' src={mmk} alt="" /></motion.div>
                         </div>
-                        <div className='font-bebas p-5 xs:text-xs'>"Web wizard Murtaza Khan: turning caffeine into code since forever!"</div>
+                        <div className='relative hidden xs:flex overflow-hidden border-2 border-white bg-white w-[15vw] h-[32vh] xs:h-[15vh] xs:w-[33vw] rounded-full'>
+                            {/* <motion.div className='absolute w-full h-full bg-white flex z-10 items-center justify-center text-black text-lg font-mono font-bold flex-col '><p className='font-danfo text-4xl xs:text-lg'>Hover</p></motion.div> */}
+                            <motion.div whileHover={{opacity:1 ,scale:1.01}} initial={{opacity:0}} className='absolute z-20 w-full h-full'><img className=' w-full h-full object-cover' src={mmk} alt="" /></motion.div>
+                        </div>
+                        <div className='font-bebas p-5 xs:text-xl xs:w-[50vw]'>"Web wizard Murtaza Khan: turning caffeine into code since forever!"</div>
                     </div>
-                    <div className='flex flex-col items-center justify-center w-1/3 h-[70vh]'>
+                    <div className='flex xs:hidden flex-col items-center justify-center w-1/3 h-[70vh]'>
                         <div className='flex flex-col items-center justify-center'>
                             {/* <motion.h1 className='flex flex-col items-center justify-center cursor-pointer mr-20 text-4xl' whileHover={{scale:1.3 , originX:.1 , originY:.1 , color:'purple'}} transition={{type:'spring' , stiffness:900}}>SECTIONS</motion.h1> */}
                             <motion.div className='mt-10' whileHover={{scale:1.3 , originX:.1 , originY:.1 , color:'red'}} transition={{type:'spring' , stiffness:900}}>
@@ -234,7 +238,7 @@ const Hero = ({reference}) => {
                         <div>
 
                         </div>
-                        <div className='overflow-hidden p-5'>
+                        <div className='overflow-hidden p-5 xs:hidden'>
                             <motion.div className='cursor-pointer' whileHover={{scale:1.3 , originX:0 , color:'orange'}} transition={{type:'spring' , stiffness:300}} >
                                 ▪️ Gaming
                             </motion.div>
