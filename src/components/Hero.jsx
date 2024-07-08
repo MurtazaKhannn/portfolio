@@ -161,7 +161,7 @@ const Hero = ({reference}) => {
                     <div className='-mt-10 flex items-center flex-col text-4xl font-mono font-bold pt-10 text-[5vh] xs:text-lg'>  I'm Mohd Murtaza Khan, a MERN <br /> </div>
                     <div>
                         <div className='-mt-5 flex gap-5 items-center justify-center '>
-                            <motion.div initial={{width:0 }} animate={{width:"8vw"}} transition={{ease: [0.76 , 0 , 0.24 , 1] , duration : 1 , delay: 2 , repeat: Infinity , repeatDelay:2 , repeatType: "mirror" }}  className=' h-[6vh] xs:h-[4vh] text-black rounded-md flex items-center justify-center w-[5vw] bg-red-600 text-3xl uppercase font-bold xs:text-sm'>hey</motion.div>
+                            <motion.div initial={{width:0 }} animate={{width:"8vw"}} transition={{ease: [0.76 , 0 , 0.24 , 1] , duration : 1 , delay: 2 , repeat: Infinity , repeatDelay:2 , repeatType: "mirror" }}  className=' h-[6vh] xs:h-[4vh] text-black rounded-md flex items-center xs:hidden justify-center w-[5vw] bg-red-600 text-3xl uppercase font-bold xs:text-sm'>hey</motion.div>
                             <motion.div initial={{width:0 , wordSpacing:'-2em' , opacity:0}} animate={{width:"40vw" , wordSpacing:'.01em' , opacity:1}} transition={{ease: "backInOut" , duration : 1 , delay: 4 ,repeat: Infinity , repeatDelay:2 , repeatType: "mirror"}} className='h-[6vh] whitespace-nowrap rounded-md flex items-center justify-center w-[35vw] bg-blue-600 text-3xl uppercase font-bold xs:text-sm xs:hidden xs:flex flex-col'>YOU ARE UNDER MY SURVEILLANCE</motion.div>
                             <div className='text-[5vh] font-bold xs:text-lg'> Stack Developer Based in INDIA.</div>
                         </div>
