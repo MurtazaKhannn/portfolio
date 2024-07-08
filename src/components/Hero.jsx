@@ -158,26 +158,31 @@ const Hero = ({reference}) => {
             </div>
             <div className=" lower h-[45vh] flex flex-col gap-5 w-full">
                 <div className=' p-5 flex flex-col gap-5 justify-center items-centeer'>
-                    <div className='-mt-10 flex items-center flex-col text-4xl font-mono font-bold pt-10 text-[5vh]'>  I'm Mohd Murtaza Khan, a MERN <br /> </div>
+                    <div className='-mt-10 flex items-center flex-col text-4xl font-mono font-bold pt-10 text-[5vh] xs:text-lg'>  I'm Mohd Murtaza Khan, a MERN <br /> </div>
                     <div>
-                        <div className='-mt-5 flex gap-5 items-center justify-center'>
-                            <motion.div initial={{width:0 }} animate={{width:"5vw"}} transition={{ease: [0.76 , 0 , 0.24 , 1] , duration : 1 , delay: 2 , repeat: Infinity , repeatDelay:2 , repeatType: "mirror" }}  className=' h-[6vh] text-black rounded-md flex items-center justify-center w-[5vw] bg-red-600 text-3xl uppercase font-bold'>hey</motion.div>
-                            <motion.div initial={{width:0 , wordSpacing:'-2em' , opacity:0}} animate={{width:"35vw" , wordSpacing:'.01em' , opacity:1}} transition={{ease: "backInOut" , duration : 1 , delay: 4 ,repeat: Infinity , repeatDelay:2 , repeatType: "mirror"}} className='h-[6vh] whitespace-nowrap rounded-md flex items-center justify-center w-[35vw] bg-blue-600 text-3xl uppercase font-bold'>YOU ARE UNDER MY SURVEILLANCE</motion.div>
-                            <div className='text-[5vh] font-bold'> Stack Developer Based in INDIA.</div>
+                        <div className='-mt-5 flex gap-5 items-center justify-center '>
+                            <motion.div initial={{width:0 }} animate={{width:"8vw"}} transition={{ease: [0.76 , 0 , 0.24 , 1] , duration : 1 , delay: 2 , repeat: Infinity , repeatDelay:2 , repeatType: "mirror" }}  className=' h-[6vh] xs:h-[4vh] text-black rounded-md flex items-center justify-center w-[5vw] bg-red-600 text-3xl uppercase font-bold xs:text-sm'>hey</motion.div>
+                            <motion.div initial={{width:0 , wordSpacing:'-2em' , opacity:0}} animate={{width:"40vw" , wordSpacing:'.01em' , opacity:1}} transition={{ease: "backInOut" , duration : 1 , delay: 4 ,repeat: Infinity , repeatDelay:2 , repeatType: "mirror"}} className='h-[6vh] whitespace-nowrap rounded-md flex items-center justify-center w-[35vw] bg-blue-600 text-3xl uppercase font-bold xs:text-sm xs:hidden xs:flex flex-col'>YOU ARE UNDER MY SURVEILLANCE</motion.div>
+                            <div className='text-[5vh] font-bold xs:text-lg'> Stack Developer Based in INDIA.</div>
                         </div>
 
                     </div>
-                <div className='flex relative overflow-x-hidden '>
-                    <div onMouseOver={() => {setfirst(randomX)} } className=' flex items-center hover:text-zinc-900 w-full z-10 bg-black font-semibold catch cursor-pointer flex gap-4 '> <img className='h-[12vh]' src="https://media.gettyimages.com/id/1387604555/video/generic-racecar-prototype-photorealistic-render-silhouette-on-black.jpg?s=640x640&k=20&c=A7agC8bcXDFuiaeKQsYPoVDXb2Gbv6fUmjoazlk9idE=" alt="" />
-                    {/* <div>
-                        <h2 className={`${time ? '' : 'hidden'} top-0 text-white right-0 font-bold bg-blue-600 h-20 rounded-md pl-5 uppercase text-7xl`}>YOU ARE UNDER MY SURVEILLIANCE.</h2>
-                    </div> */}
+                <div className='flex xs:hidden relative overflow-x-hidden '>
+                    <div onMouseOver={() => {setfirst(randomX)} } className=' flex items-center hover:text-zinc-900 w-full xs:w-[20vw] z-10 bg-black font-semibold catch cursor-pointer flex gap-4 '> <img className='h-[12vh] xs:h-[4vh]' src="https://media.gettyimages.com/id/1387604555/video/generic-racecar-prototype-photorealistic-render-silhouette-on-black.jpg?s=640x640&k=20&c=A7agC8bcXDFuiaeKQsYPoVDXb2Gbv6fUmjoazlk9idE=" alt="" />
                     </div>
                     <div >
-                        <h2 className='text-white absolute top-0 left-0 bg-red-600 h-20 rounded-md pl-5 font-bold uppercase text-7xl'>Welcome TO my portfolio.HAVE FUN!</h2>
+                        <h2 className='text-white absolute top-0 left-0 bg-red-600 h-20 xs:h-7 rounded-md pl-5 font-bold uppercase text-7xl xs:text-xl'>Welcome TO my portfolio.HAVE FUN!</h2>
                     </div>
-                    
                 </div>
+
+                <div className='flex relative overflow-x-hidden hidden xs:flex '>
+                    <div  className=' flex items-center hover:text-zinc-900 w-full xs:w-[20vw] z-10 font-semibold catch cursor-pointer flex gap-4'> <div className='h-[12vh] xs:h-[4vh]' ></div>
+                    </div>
+                    <div>
+                        <h2 className='text-white absolute top-0 left-0 bg-red-600 h-20 xs:h-7 rounded-md pl-5 font-bold uppercase text-7xl xs:text-xl xs:pr-1'>Welcome TO my portfolio.HAVE FUN!</h2>
+                    </div>
+                </div>
+
                     <p className='font-semibold text-zinc-500 '>Hello, I'm Mohd Murtaza Khan, a passionate MERN stack developer based in the vibrant city of New Delhi, India. With a strong foundation in modern web development technologies.
                         Over the years, I have honed my skills in <i>JavaScript</i> , <i>React.js</i> , <i>Node.js</i> , and <i>MongoDB</i>  the key components of the MERN stack—to craft dynamic and interactive web applications.</p>
                 </div>
