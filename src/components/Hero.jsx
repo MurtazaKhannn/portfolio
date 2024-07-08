@@ -124,14 +124,14 @@ const Hero = ({reference}) => {
                 <div className='w-full items-center justify-center xs:h-[40vh] flex flex-col gap-5'>
                     <div data-scroll data-scroll-speed="-.3" className='eyes bg-zinc-900 z-10 -gap-10 flex flex-col items-center justify-center w-full h-[34vh] '>
                         <div className='flex items-center justify-center gap-16 w-full h-full'>
-                        <div className='flex items-center justify-center w-[12vw] h-[25vh] xs:h-[12vh] xs:w-[27vw] bg-white rounded-full'> 
+                        <div className='flex items-center justify-center w-[12vw] h-[25vh] xs:h-[13vh] xs:w-[27vw] bg-white rounded-full'> 
                             <div style={{transform:`rotate(${rotate}deg)`}} className=' flex items-center w-[7.3vw] h-[15.5vh] xs:h-[8vh] xs:w-[17vw] bg-black rounded-full'>
                                 <div  className='flex items-center bg-white w-[2vw] h-[4vh] xs:w-[4vw] xs:h-[2vh] rounded-full' >
                                     <div className='bg-zinc-700 w-[1.5vw] h-[2.7vh] xs:w-[3vw] xs:h-[1.75vh] rounded-full'></div>
                                 </div>
                             </div>
                         </div>
-                        <div className=' flex items-center justify-center w-[12vw] h-[25vh] xs:h-[12vh] xs:w-[27vw] bg-white rounded-full'>
+                        <div className=' flex items-center justify-center w-[12vw] h-[25vh] xs:h-[13vh] xs:w-[27vw] bg-white rounded-full'>
                             <div style={{transform:`rotate(${rotate}deg)`}} className='flex items-center w-[7.3vw] h-[15.5vh] xs:h-[8vh] xs:w-[17vw] bg-black rounded-full'>
                                 <div className='flex items-center bg-white w-[2vw] h-[4vh] xs:w-[4vw] xs:h-[2vh] rounded-full' >
                                 <div className='bg-zinc-700 w-[1.5vw] h-[2.7vh] xs:w-[3vw] xs:h-[1.75vh] rounded-full '></div>
