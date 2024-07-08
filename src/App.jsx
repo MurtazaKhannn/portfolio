@@ -9,7 +9,7 @@ import { Route } from 'react-router-dom'
 const App = () => {
   
   return (
-    <div className='w-full min-h-screen xs:w-[108%] bg-black font-mono'>
+    <div className='w-full min-h-screen bg-black font-mono'>
       <Nav/>
       <Home/>
       
