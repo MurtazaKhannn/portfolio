@@ -183,7 +183,7 @@ const Hero = ({reference}) => {
                     </div>
                 </div>
 
-                    <p className='font-semibold text-zinc-500 '>Hello, I'm Mohd Murtaza Khan, a passionate MERN stack developer based in the vibrant city of New Delhi, India. With a strong foundation in modern web development technologies.
+                    <p className='font-semibold text-zinc-500 xs:text-xs '>Hello, I'm Mohd Murtaza Khan, a passionate MERN stack developer based in the vibrant city of New Delhi, India. With a strong foundation in modern web development technologies.
                         Over the years, I have honed my skills in <i>JavaScript</i> , <i>React.js</i> , <i>Node.js</i> , and <i>MongoDB</i>  the key components of the MERN stack—to craft dynamic and interactive web applications.</p>
                 </div>
                 {/* <div className='flex items-center justify-center gap-40'>

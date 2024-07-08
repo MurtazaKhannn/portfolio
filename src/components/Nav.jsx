@@ -5,7 +5,7 @@ import { FaPhone } from 'react-icons/fa';
 const Nav = () => {
   return (
     <div className='flex h-[10vh] xs:h-[5vh]  justify-between w-full items-center'>
-      <h1 className='text-4xl xs:text-4xl xs:items-center xs:w-full xs:pl-[7.75rem] xs:justify-center ml-8 xs:ml-3 font-bold xs:pt-[1.75rem]'>
+      <h1 className='text-4xl xs:text-4xl xs:items-center xs:w-full xs:pl-[7.75rem] xs:justify-center ml-8 xs:ml-8 font-bold xs:pt-[1.75rem]'>
         <i className='font-bebas text-red-700 flex'>
           Murtaza <p className='text-white'>.</p> <p className='text-blue-500'>Dev</p>
         </i>
