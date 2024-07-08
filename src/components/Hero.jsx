@@ -179,7 +179,7 @@ const Hero = ({reference}) => {
                     <div  className=' flex items-center hover:text-zinc-900 w-full xs:w-[20vw] z-10 font-semibold catch cursor-pointer flex gap-4'> <div className='h-[12vh] xs:h-[4vh]' ></div>
                     </div>
                     <div>
-                        <h2 className='text-white absolute top-0 left-0 bg-red-600 h-20 xs:h-7 rounded-md pl-5 font-bold uppercase text-7xl xs:text-xl xs:pr-1'>Welcome TO my portfolio.HAVE FUN!</h2>
+                        <h2 className='text-white absolute top-0 left-0 bg-red-600 h-20 xs:h-7 rounded-md pl-5 font-bold uppercase text-7xl xs:text-xl xs:pr-1'>Welcome TO my PORTFOLIO.</h2>
                     </div>
                 </div>
 
