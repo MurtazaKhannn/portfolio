@@ -4,15 +4,9 @@ let allProjects = [
   {
     name: "Silva Nest",
     video: black,
+    github : "https://github.com/MurtazaKhannn/snfp" ,
+    live : "https://silvanest.vercel.app/"
   },
-  {
-    name: "Puzzle Game",
-    video: black,
-  } , 
-  {
-    name: "Chatbot",
-    video: black,
-  }
 ];
 
 export default allProjects;

@@ -4,6 +4,7 @@ import { FaGithub, FaHtml5, FaJava, FaLinkedinIn, FaNode } from 'react-icons/fa'
 import { GrReactjs } from 'react-icons/gr';
 import { SiCss3, SiExpress, SiMongodb } from 'react-icons/si';
 import { Link } from 'react-scroll';
+import { PiArrowFatLineDownFill } from "react-icons/pi";
 import { motion, useAnimation } from "framer-motion";
 import { gsap } from 'gsap';
 import mmk from "../assets/mmk.jpg"
@@ -218,9 +219,12 @@ const Hero = ({reference}) => {
                         </div>
                         <div className='font-bebas p-5'>"Web wizard Murtaza Khan: turning caffeine into code since forever!"</div>
                     </div>
-                    <div className='flex flex-col gap-[5vh] items-center justify-center w-1/3 h-[70vh]'>
-                        <div className='flex'>
-                            SECTIONS
+                    <div className='flex flex-col items-center justify-center w-1/3 h-[70vh]'>
+                        <div className='flex flex-col items-center justify-center'>
+                            {/* <motion.h1 className='flex flex-col items-center justify-center cursor-pointer mr-20 text-4xl' whileHover={{scale:1.3 , originX:.1 , originY:.1 , color:'purple'}} transition={{type:'spring' , stiffness:900}}>SECTIONS</motion.h1> */}
+                            <motion.div className='mt-10' whileHover={{scale:1.3 , originX:.1 , originY:.1 , color:'red'}} transition={{type:'spring' , stiffness:900}}>
+                                <PiArrowFatLineDownFill />
+                            </motion.div>
                         </div>
                         <div>
 
@@ -233,10 +237,7 @@ const Hero = ({reference}) => {
                                 ▪️ Projects
                             </motion.div>
                             <motion.div className='cursor-pointer' whileHover={{scale:1.3 , originX:0 , color:'orange'}} transition={{type:'spring' , stiffness:300}} >
-                                ▪️ Home
-                            </motion.div>
-                            <motion.div className='cursor-pointer' whileHover={{scale:1.3 , originX:0 , color:'orange'}} transition={{type:'spring' , stiffness:300}} >
-                                ▪️ Footer
+                                ▪️ Experience
                             </motion.div>
                             <motion.div className='cursor-pointer w-[17vw]' whileHover={{scale:1.3 , originX:0 , color:'orange'}} transition={{type:'spring' , stiffness:700}}>
                                 ▪️ I dont know what else.
