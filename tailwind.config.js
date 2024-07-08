@@ -4,6 +4,14 @@ export default {
     './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
+    screens: {
+      'xs': {'max': '639px'},  // Custom breakpoint for screens less than 640px
+      'sm': '640px',           // Default small breakpoint
+      'md': '768px',           // Default medium breakpoint
+      'lg': '1024px',          // Default large breakpoint
+      'xl': '1280px',          // Default extra large breakpoint
+      '2xl': '1536px',         // Default 2x extra large breakpoint
+    },
     extend: {
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
