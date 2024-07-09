@@ -35,7 +35,7 @@ const Card = () => {
   return (
     <div
       id="projects"
-      className="flex flex-col bg-black items-center justify-center w-full justify-center items-center pl-24 xs:min-h-[50vh] min-h-screen gap-10 overflow-hidden"
+      className="flex flex-col bg-black items-center justify-center w-full justify-center items-center pl-24 xs:min-h-[50vh] xs:mt-10 min-h-screen gap-10 overflow-hidden"
     >
       <h1 className="text-white font-danfo text-4xl hover:text-green-700 xs:mr-[20vw]">
         Projects
@@ -52,7 +52,7 @@ const Card = () => {
 
               <div
                 ref={addToRefs}
-                className="rotate-card w-[45vw] h-[50vh] xs:h-[20vh] xs:w-[80vw] bg-zinc-900 rounded-md flex xs:mr-12"
+                className="rotate-card w-[45vw] h-[50vh] xs:h-[20vh] xs:w-[80vw] xs:h-[1vh] bg-zinc-900 rounded-md flex xs:mr-12 "
                 onMouseEnter={() => handleCardMouseEnter(index)}
                 onMouseLeave={() => handleCardMouseLeave(index)}
               >
@@ -61,7 +61,7 @@ const Card = () => {
                 </div>
               </div>
 
-              <div className="flex gap-20 mt-5 xs:mt-0 text-white xs:mr-24">
+              <div className="flex gap-20 mt-5 xs:mt-24 text-white xs:mr-24">
                 <motion.button
                   whileHover={{
                     scale: 2,
