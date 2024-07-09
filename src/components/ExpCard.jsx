@@ -4,7 +4,7 @@ import React from 'react';
 const ExpCard = (props) => {
 
   return (
-    <div id='experience' className='hover:scale-110 w-[20vw] h-[40vh] rounded-md bg-zinc-900 flex flex-col gap-5 text-white'>
+    <div id='experience' className='hover:scale-110 w-[20vw] h-[40vh] xs:w-[40vw] xs:h-[25vh] rounded-md bg-zinc-900 flex flex-col gap-5 text-white'>
       <div className='flex items-center justify-center h-[50%]'>
         {/* <img 
           className='rounded-md w-full h-full object-cover' 
@@ -13,7 +13,7 @@ const ExpCard = (props) => {
         /> */}
 
 
-        <div className={`text-7xl text-black flex items-center justify-center rounded-md font-bebas w-full h-full  ${props.color} `}>
+        <div className={`text-7xl text-black flex items-center justify-center rounded-md font-bebas w-full h-full xs:text-5xl  ${props.color} `}>
           {props.name}
         </div>
       </div>
