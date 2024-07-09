@@ -19,7 +19,7 @@ const GameSection = () => {
                 
                 <div className='flex xs:flex-col items-center justify-between w-full xs:min-h-[20vh]  '>
                 <div className='relative h-[60vh] w-[40vw] xs:h-[0vh] xs:w-[48vw] xs:flex xs:flex-col'>
-                <motion.div  whileHover={{opacity:0 ,scale:1.01}} initial={{opacity:1}} className='flex xs:text-red-700 items-center justify-center text-4xl font-bold font-danfo absolute w-[40vw] h-[60vh] xs:w-[51vw]  bg-black z-40 h-full z-index-30 '>SIMON SAYS</motion.div>
+                <motion.div  whileHover={{opacity:0 ,scale:1.01}} initial={{opacity:1}} className='flex xs:text-red-700 items-center justify-center text-4xl font-bold font-danfo absolute w-[40vw] h-[60vh] xs:w-[51vw]  bg-black z-40 h-full z-index-30 xs:text-3xl '>SIMON SAYS</motion.div>
                 <div className='flex items-center justify-center flex-col w-[40vw] p-6 h-[60vh] bg-black rounded-[5vh] gap-5 xs:hidden'>
                     <h1 className='xs:hidden font-bebas text-4xl flex items-center '>SIMON SAYS</h1>
                     <div className='flex overflow-hidden xs:hidden'>
@@ -35,7 +35,7 @@ const GameSection = () => {
                 </div>
                 
                 <div className='h-[60vh] w-[40vw] xs:w-[50vw] relative xs:h-10 xs:w-[20vw]'>
-                    <motion.div  whileHover={{opacity:0 ,scale:1.01}} initial={{opacity:1}} className='flex xs:text-blue-700 items-center justify-center text-4xl font-bold font-danfo absolute w-[40vw] h-[60vh] xs:w-[50vw] bg-black z-40 h-full z-index-30'>TIC TAC TOE</motion.div>
+                    <motion.div  whileHover={{opacity:0 ,scale:1.01}} initial={{opacity:1}} className='flex xs:text-blue-700 items-center justify-center text-4xl font-bold font-danfo absolute w-[40vw] h-[60vh] xs:w-[50vw] bg-black z-40 h-full z-index-30 xs:text-3xl'>TIC TAC TOE</motion.div>
                     <div className='flex xs:hidden items-center justify-center flex-col w-[40vw] p-6 h-[60vh] bg-black rounded-[5vh] gap-4'>
                     <h1 className='font-bebas text-4xl flex items-center'>TIC TAC TOE</h1>
                     <div className='flex overflow-hidden'>
