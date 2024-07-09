@@ -5,7 +5,7 @@ import React from 'react'
 const ExpRNews = () => {
     // const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className='min-h-[10vh] overflow-hidden'>
+    <div className='min-h-[10vh] xs:hidden overflow-hidden'>
       <motion.div 
             className='flex'
             initial={{ x: 0 }} 
