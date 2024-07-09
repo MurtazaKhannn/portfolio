@@ -7,36 +7,36 @@ import { motion } from 'framer-motion';
 
 const GameSection = () => {
   return (
-    <div id='GameSection' className='min-w-full min-h-[100vh] text-white mt-[20vh] items-center justify-center '>
-      <div className='flex items-center text-black bg-yellow-400 justify-center font-bold'>
+    <div id='GameSection' className='min-w-full min-h-[100vh] xs:min-h-[60vh] text-white mt-[20vh] items-center justify-center '>
+      <div className='flex xs:p-3 xs:font-bebas items-center text-black bg-yellow-400 justify-center font-bold'>
         <h1>I asked a gamer if they wanted to play hide and seek. They said they would, but their graphics card couldn't handle it!</h1>
       </div>
-      <div className='p-10'>
+      <div className='p-10 '>
             <div className='flex items-center justify-center'>
                 <h1 className='font-danfo text-4xl mt-5 hover:text-red-700'>Gaming Section</h1>
             </div>
-            <div className='mt-[12vh] flex flex-col items-center justify-between gap-[10vw]'>
+            <div className='mt-[12vh] flex flex-col items-center justify-between gap-[10vw] '>
                 
-                <div className='flex items-center justify-between w-full'>
-                <div className='relative h-[60vh] w-[40vw]'>
-                <motion.div  whileHover={{opacity:0 ,scale:1.01}} initial={{opacity:1}} className='flex items-center justify-center text-4xl font-bold font-danfo absolute w-[40vw] h-[60vh] bg-black z-40 h-full z-index-30'>SIMON SAYS</motion.div>
-                <div className='flex items-center justify-center flex-col w-[40vw] p-6 h-[60vh] bg-black rounded-[5vh] gap-5'>
-                    <h1 className='font-bebas text-4xl flex items-center '>SIMON SAYS</h1>
-                    <div className='flex overflow-hidden'>
+                <div className='flex xs:flex-col items-center justify-between w-full xs:min-h-[20vh]  '>
+                <div className='relative h-[60vh] w-[40vw] xs:h-[0vh] xs:w-[48vw] xs:flex xs:flex-col'>
+                <motion.div  whileHover={{opacity:0 ,scale:1.01}} initial={{opacity:1}} className='flex xs:text-red-700 items-center justify-center text-4xl font-bold font-danfo absolute w-[40vw] h-[60vh] xs:w-[50vw] bg-black z-40 h-full z-index-30 '>SIMON SAYS</motion.div>
+                <div className='flex items-center justify-center flex-col w-[40vw] p-6 h-[60vh] bg-black rounded-[5vh] gap-5 xs:hidden'>
+                    <h1 className='xs:hidden font-bebas text-4xl flex items-center '>SIMON SAYS</h1>
+                    <div className='flex overflow-hidden xs:hidden'>
                     <motion.img initial={{ x: "0" }}   animate={{ x: "-74vw" }}   transition={{ duration: 9, delay: 1 , repeat:Infinity  , ease:'linear' }} className='rounded-md' src={ssgf} alt="" />
                     <motion.img initial={{ x: "0" }}   animate={{ x: "-74vw" }}   transition={{ duration: 9, delay: 1 , repeat:Infinity , ease:'linear'  }} className='rounded-md' src={ssgo} alt="" />
                     <motion.img initial={{ x: "0" }}   animate={{ x: "-74vw" }}   transition={{ duration: 9, delay: 1 , repeat:Infinity  , ease:'linear' }} className='rounded-md' src={ssgf} alt="" />
                     </div>
                 </div>
                 <div  className='flex gap-20 items-center justify-center'>
-                        <button onClick={() => {window.open('https://github.com/MurtazaKhannn/Simon-Says-game-using-HTML-CSS-JS-')}}>Github</button>
-                        <button onClick={() => {window.open('https://murtazakhannn.github.io/Simon-Says-game-using-HTML-CSS-JS-/')}}>Play</button>
+                        <button className='xs:h-20' onClick={() => {window.open('https://github.com/MurtazaKhannn/Simon-Says-game-using-HTML-CSS-JS-')}}>Github</button>
+                        <button className='' onClick={() => {window.open('https://murtazakhannn.github.io/Simon-Says-game-using-HTML-CSS-JS-/')}}>Play</button>
                 </div>
                 </div>
                 
-                <div className='h-[60vh] w-[40vw] relative'>
-                    <motion.div  whileHover={{opacity:0 ,scale:1.01}} initial={{opacity:1}} className='flex items-center justify-center text-4xl font-bold font-danfo absolute w-[40vw] h-[60vh] bg-black z-40 h-full z-index-30'>TIC TAC TOE</motion.div>
-                    <div className='flex items-center justify-center flex-col w-[40vw] p-6 h-[60vh] bg-black rounded-[5vh] gap-4'>
+                <div className='h-[60vh] w-[40vw] xs:w-[50vw] relative xs:h-10 xs:w-[20vw]'>
+                    <motion.div  whileHover={{opacity:0 ,scale:1.01}} initial={{opacity:1}} className='flex xs:text-blue-700 items-center justify-center text-4xl font-bold font-danfo absolute w-[40vw] h-[60vh] xs:w-[50vw] bg-black z-40 h-full z-index-30'>TIC TAC TOE</motion.div>
+                    <div className='flex xs:hidden items-center justify-center flex-col w-[40vw] p-6 h-[60vh] bg-black rounded-[5vh] gap-4'>
                     <h1 className='font-bebas text-4xl flex items-center'>TIC TAC TOE</h1>
                     <div className='flex overflow-hidden'>
                     <motion.img initial={{ x: "0" }}   animate={{ x: "-70vw" }}   transition={{ duration: 9, delay: 1 , repeat:Infinity  , ease:'linear' }} className='rounded-md' src={tttg} alt="" />
@@ -46,8 +46,8 @@ const GameSection = () => {
                     </div>
                     </div>
                     <div  className='flex gap-20 justify-center items-center'>
-                        <button onClick={() => {window.open('https://github.com/MurtazaKhannn/TicTacToe')}}>Github</button>
-                        <button onClick={() => {window.open('https://tictactoemk.netlify.app/')}}>Play</button>
+                        <button className='xs:h-32' onClick={() => {window.open('https://github.com/MurtazaKhannn/TicTacToe')}}>Github</button>
+                        <button className='xs:h-32' onClick={() => {window.open('https://tictactoemk.netlify.app/')}}>Play</button>
                     </div>
                 </div>
                 </div>
