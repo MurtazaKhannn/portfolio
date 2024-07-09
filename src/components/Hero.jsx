@@ -190,6 +190,9 @@ const Hero = ({reference}) => {
                     <Link className='border-2 text-xs border-black px-5 py-3 rounded-full cursor-pointer hover:border-red-500'>My projects</Link>
                     <Link className='border-2 border-blue-700 text-xs px-5 py-3 rounded-full cursor-pointer hover:border-black'>My Resume</Link>
                 </div> */}
+
+                <h1 className='p-2 hidden xs:flex font-bebas w-full items-center justify-center xs:text-5xl '>ABOUT ME</h1>
+
                 <div className='xs:mt-[-10rem] flex items-center justify-center text-3xl font-danfo xs:text-sm'>
                     
                     <div className='flex flex-col items-center justify-center w-1/3 h-[70vh] gap-10 p-5 xs:text-2xl'>
@@ -217,14 +220,15 @@ const Hero = ({reference}) => {
                         
                     </div>
                     <div className='flex center items-center flex-col gap-10 xs:gap-5 justify-center w-1/3 h-[70vh]'>
-                        <h1 className='p-2 xs:text-2xl'>ABOUT ME</h1>
+                    <h1 className='p-2 xs:hidden '>ABOUT ME</h1>
+
                         <div  className='xs:hidden relative overflow-hidden border-2 border-white bg-white w-[15vw] h-[32vh] xs:h-[10vh] xs:w-[21vw] rounded-full'>
                             <motion.div className='absolute w-full h-full bg-white flex z-10 items-center justify-center text-black text-lg font-mono font-bold flex-col '><p className='font-danfo text-4xl xs:text-lg'>Hover</p></motion.div>
                             <motion.div whileHover={{opacity:1 ,scale:1.01}} initial={{opacity:0}} className='absolute z-20 w-full h-full'><img className=' w-full h-full object-cover' src={mmk} alt="" /></motion.div>
                         </div>
-                        <div className='relative hidden xs:flex overflow-hidden border-2 border-white bg-white w-[15vw] h-[32vh] xs:h-[15vh] xs:w-[33vw] rounded-full'>
-                            {/* <motion.div className='absolute w-full h-full bg-white flex z-10 items-center justify-center text-black text-lg font-mono font-bold flex-col '><p className='font-danfo text-4xl xs:text-lg'>Hover</p></motion.div> */}
-                            <motion.div whileHover={{opacity:1 ,scale:1.01}} initial={{opacity:0}} className='absolute z-20 w-full h-full'><img className=' w-full h-full object-cover' src={mmk} alt="" /></motion.div>
+                        <div className='relative hidden xs:flex overflow-hidden border-2 border-white bg-white w-[15vw] h-[32vh] xs:h-[15vh] xs:w-[32vw] rounded-full'>
+                            <motion.div className='absolute w-full h-full bg-white flex z-10 items-center justify-center text-black text-lg font-mono font-bold flex-col '><p className='font-danfo text-4xl xs:text-lg'>Hover</p></motion.div>
+                            <motion.div className='absolute z-20 w-full h-full'><img className=' w-full h-full object-cover' src={mmk} alt="" /></motion.div>
                         </div>
                         <div className='font-bebas p-5 xs:text-xl xs:w-[50vw]'>"Web wizard Murtaza Khan: turning caffeine into code since forever!"</div>
                     </div>
