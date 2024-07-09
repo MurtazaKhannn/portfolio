@@ -268,7 +268,7 @@ const Hero = ({reference}) => {
           dragConstraints={reference}
           whileDrag={{ scale: 1.2 }}
           dragElastic={0.1}
-          className='h-[30vh] w-[30vw] absolute z-30'
+          className='h-[30vh] w-[30vw] absolute z-30 xs:w-[70vw] xs:h-[35vh]'
           src={RCurve}
           alt=""
           
