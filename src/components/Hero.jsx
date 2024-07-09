@@ -226,7 +226,7 @@ const Hero = ({reference}) => {
                             <motion.div className='absolute w-full h-full bg-white flex z-10 items-center justify-center text-black text-lg font-mono font-bold flex-col '><p className='font-danfo text-4xl xs:text-lg'>Hover</p></motion.div>
                             <motion.div whileHover={{opacity:1 ,scale:1.01}} initial={{opacity:0}} className='absolute z-20 w-full h-full'><img className=' w-full h-full object-cover' src={mmk} alt="" /></motion.div>
                         </div>
-                        <div className='relative hidden xs:flex overflow-hidden border-2 border-white bg-white w-[15vw] h-[32vh] xs:h-[15vh] xs:w-[32vw] rounded-full'>
+                        <div className='relative hidden xs:flex overflow-hidden border-2 border-white bg-white w-[15vw] h-[32vh] xs:h-[16vh] xs:w-[32vw] rounded-full'>
                             <motion.div className='absolute w-full h-full bg-white flex z-10 items-center justify-center text-black text-lg font-mono font-bold flex-col '><p className='font-danfo text-4xl xs:text-lg'>Hover</p></motion.div>
                             <motion.div className='absolute z-20 w-full h-full'><img className=' w-full h-full object-cover' src={mmk} alt="" /></motion.div>
                         </div>
