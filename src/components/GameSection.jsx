@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 const GameSection = () => {
   return (
-    <div id='GameSection' className='min-w-full min-h-[100vh] xs:min-h-[60vh] text-white mt-[20vh] items-center justify-center '>
+    <div id='GameSection' className='min-w-full min-h-[100vh] xs:min-h-[60vh] text-white mt-[20vh] xs:mt-[33vh] items-center justify-center '>
       <div className='flex xs:p-3 xs:font-bebas items-center text-black bg-yellow-400 justify-center font-bold'>
         <h1>I asked a gamer if they wanted to play hide and seek. They said they would, but their graphics card couldn't handle it!</h1>
       </div>
