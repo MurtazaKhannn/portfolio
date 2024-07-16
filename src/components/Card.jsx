@@ -16,7 +16,7 @@ const Card = () => {
 
   const handleCardMouseEnter = (index) => {
     gsap.to(cardRefs.current[index], {
-      rotate: 2,
+      rotate: 1,
       duration: 0.41,
       yoyo: true,
       repeat: -1,
@@ -27,7 +27,7 @@ const Card = () => {
   const handleCardMouseLeave = (index) => {
     gsap.killTweensOf(cardRefs.current[index]);
     gsap.to(cardRefs.current[index], {
-      rotate: -2,
+      rotate: -1,
       duration: 0.41,
     });
   };
