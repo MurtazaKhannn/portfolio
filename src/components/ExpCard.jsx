@@ -5,8 +5,8 @@ const ExpCard = (props) => {
   return (
     <div id='experience' className='hover:scale-110 w-[20vw] h-[40vh] xs:w-[40vw] xs:h-[25vh] rounded-md bg-zinc-900 flex flex-col gap-5 text-white'>
       <div className='flex items-center justify-center h-[50%]'>
-        {props.img ? (
-          <img 
+        {props.img ?  (
+          <img   
             className='rounded-md w-28 h-28 object-cover' 
             src={props.img} 
             alt={props.name} 
