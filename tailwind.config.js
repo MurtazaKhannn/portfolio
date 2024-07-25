@@ -19,6 +19,8 @@ export default {
         danfo: ['Danfo', 'sans-serif'] ,
         bebas: ['"Bebas Neue"', 'cursive'],
         poiret: ['Poiret One', 'sans-serif'],
+        ops: ['Black Ops One', 'sans-serif'],
+        broken: ['Rubik Broken Fax' , 'sans-serif'],
       },
       textStrokeWidth: {
         '1': '1px',

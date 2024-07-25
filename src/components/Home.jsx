@@ -7,6 +7,7 @@ import GameSection from './GameSection'
 import ExpRNews from './ExpRNews'
 import Lines from "../components/Lines"
 import ExpRNewsTwo from '../components/ExpRNewsTwo'
+import Footer from './Footer'
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
       <Card reference={ref}/>
       <Exp/>
       <ExpRNews/>
+      <Footer />
       {/* <Lines /> */}
       {/* <ExpRNewsTwo /> */}
     </div>
