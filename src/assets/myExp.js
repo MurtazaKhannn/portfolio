@@ -6,7 +6,7 @@ let allExp = [
         Position : "MERN Dev" ,
         Experience : "3 Months" ,
         Proof : "Certificate" ,
-        color : "bg-gray-400" ,
+        color : "bg-violet-500" ,
         Link : 'https://online.publuu.com/577877/1296998' ,
         img : ""
     } ,
