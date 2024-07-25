@@ -12,7 +12,7 @@ const Exp = () => {
           return (
             <ExpCard
               key={index}
-              img={data.Img}
+              img={data.img}
               name={data.name}
               Experience={data.Experience}
               Proof={data.Proof}

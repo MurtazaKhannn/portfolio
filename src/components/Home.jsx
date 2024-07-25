@@ -5,6 +5,9 @@ import Exp from './Exp'
 import WebExpCard from './WebExpCard'
 import GameSection from './GameSection'
 import ExpRNews from './ExpRNews'
+import Lines from "../components/Lines"
+import ExpRNewsTwo from '../components/ExpRNewsTwo'
+
 
 const Home = () => {
 
@@ -17,6 +20,8 @@ const Home = () => {
       <Card reference={ref}/>
       <Exp/>
       <ExpRNews/>
+      {/* <Lines /> */}
+      {/* <ExpRNewsTwo /> */}
     </div>
   )
 }
